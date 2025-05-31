@@ -1,0 +1,20 @@
+{
+    "id": "icon-tweaker",
+    "name": "Icon Tweaker",
+    "description": "Tab icon resizer for Essentials, Pinned, Normal and Workspaces.",
+    "homepage": "https://github.com/allecsc/Icon-Tweaker",
+    "preferences": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/preferences.json",
+    "style": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/chrome.css",
+    "readme": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/README.md",
+    "image": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/image.jpg",
+    "author": "celalalt",
+    "version": "1.0.0",
+  "tags": [
+        "sine",
+        "tabs",
+        "icons",
+        "customization"
+    ],
+    "createdAt": "2025-05-31",
+    "updatedAt": "2025-05-31"
+}
