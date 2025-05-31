@@ -1,7 +1,20 @@
 [
     {
         "property": "uc.essentials.favicon-size",
-        "label": "Size of Essentials tabs icons",
+        "label": "🔝 Size of Essentials tabs icons",
+        "type": "dropdown",
+        "placeholder": "Default",
+        "options": [
+            { "label": "Small", "airport": "small" },
+            { "label": "Normal", "value": "normal" },
+            { "label": "Large", "value": "large" },
+            { "label": "Extra Large", "value": "x-large" },
+            { "label": "Ultra Large", "value": "xx-large" }
+        ]
+    },
+    {
+        "property": "uc.pinned.favicon-size",
+        "label": "📌 Size of Pinned tabs icons",
         "type": "dropdown",
         "placeholder": "Default",
         "options": [
@@ -9,142 +22,129 @@
             { "label": "Normal", "value": "normal" },
             { "label": "Large", "value": "large" },
             { "label": "Extra Large", "value": "x-large" },
-            { "label": "Ultra Large", "value": "xx-large" },
-            { "label": "Custom", "value": "custom" }
+            { "label": "Ultra Large", "value": "xx-large" }
         ]
-    },
-    {
-        "property": "mod.sizes.essentials-favicon-size",
-        "label": "Custom size for Essentials tabs icons (in pixels)",
-        "type": "string",
-        "disabledOn": [
-            {
-                "property": "uc.essentials.favicon-size",
-                "value": ["small", "normal", "large", "x-large", "xx-large"]
-            }
-        ],
-        "defaultValue": "18"
-    },
-    {
-        "property": "uc.pinned.favicon-size",
-        "label": "Size of Pinned tabs icons",
-        "type": "dropdown",
-        "placeholder": "Default",
-        "options": [
-            { "label": "Small", "value": "small" },
-            { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "x-large" },
-            { "label": "Extra Large", "value": "x-large" },
-            { "label": "Ultra Large", "value": "xx-large" },
-            { "label": "Custom", "value": "custom" }
-        ]
-    },
-    {
-        "property": "mod.sizes.pinned-favicon-size",
-        "label": "Custom size for Pinned tabs icons (in pixels)",
-        "type": "string",
-        "disabledOn": [
-            {
-                "property": "uc.pinned.favicon-size",
-                "value": ["small", "normal", "large", "x-large", "xx-large"]
-            }
-        ],
-        "defaultValue": "18"
     },
     {
         "property": "uc.normal.favicon-size",
-        "label": "Size of Normal tabs icons",
+        "label": "🖼️ Size of Normal tabs icons",
         "type": "dropdown",
         "placeholder": "Default",
         "options": [
             { "label": "Extra Small", "value": "x-small" },
             { "label": "Small", "value": "small" },
             { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" },
-            { "label": "Custom", "value": "custom" }
+            { "label": "Large", "value": "large" }
         ]
     },
     {
-        "property": "mod.sizes.normal-favicon-size",
-        "label": "Custom size for Normal tabs icons (in pixels)",
-        "type": "string",
-        "disabledOn": [
-            {
-                "property": "uc.normal.favicon-size",
-                "value": ["x-small", "small", "normal", "large"]
-            }
-        ],
-        "defaultValue": "18"
-    },
-    {
         "property": "uc.workspace.icon-size",
-        "label": "Size of workspace icons",
+        "label": "🌐 Size of workspace icons",
         "type": "dropdown",
         "placeholder": "Default",
         "options": [
             { "label": "Extra Small", "value": "x-small" },
             { "label": "Small", "value": "small" },
             { "label": "Medium", "value": "medium" },
-            { "label": "Large", "value": "large" },
-            { "label": "Custom", "value": "custom" }
+            { "label": "Large", "value": "large" }
         ]
     },
     {
-        "property": "mod.sizes.workspace-icon-size",
-        "label": "Custom size for workspace icons (in pixels)",
-        "type": "string",
-        "disabledOn": [
-            {
-                "property": "uc.workspace.icon-size",
-                "value": ["x-small", "small", "medium", "large"]
-            }
-        ],
-        "defaultValue": "14"
-    },
-    {
         "property": "uc.workspace.current-icon-size",
-        "label": "Size of current workspace indicator icon",
+        "label": "📍 Size of current workspace indicator icon",
         "type": "dropdown",
         "placeholder": "Default",
         "options": [
             { "label": "Small", "value": "small" },
             { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" },
-            { "label": "Custom", "value": "custom" }
+            { "label": "Large", "value": "large" }
         ]
     },
     {
-        "property": "mod.sizes.workspace-current-icon-size",
-        "label": "Custom size for current workspace indicator icon (in pixels)",
-        "type": "string",
-        "disabledOn": [
-            {
-                "property": "uc.workspace.current-icon-size",
-                "value": ["small", "normal", "large"]
-            }
-        ],
-        "defaultValue": "14.5"
-    },
-    {
         "property": "uc.pinned.height",
-        "label": "Height of Pinned tabs",
+        "label": "📌 Height of Pinned tabs",
         "type": "dropdown",
         "placeholder": "Select height",
         "options": [
             { "label": "Small", "value": "small" },
             { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" },
-            { "label": "Custom", "value": "custom" }
+            { "label": "Large", "value": "large" }
         ]
     },
     {
-        "property": "mod.sizes.pinned-height",
-        "label": "Custom height for Pinned tabs (in pixels)",
+        "property": "uc.custom-sizes-enabled",
+        "label": "Custom sizes for icons and tabs",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "mod.sizes.essentials-favicon-size",
+        "label": "🔝 Custom size for Essentials tabs icons (in pixels)",
         "type": "string",
         "disabledOn": [
             {
-                "property": "uc.pinned.height",
-                "value": ["small", "normal", "large"]
+                "property": "uc.custom-sizes-enabled",
+                "value": false
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "mod.sizes.pinned-favicon-size",
+        "label": "📌 Custom size for Pinned tabs icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "uc.custom-sizes-enabled",
+                "value": false
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "mod.sizes.normal-favicon-size",
+        "label": "🖼️ Custom size for Normal tabs icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "uc.custom-sizes-enabled",
+                "value": false
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "mod.sizes.workspace-icon-size",
+        "label": "🌐 Custom size for workspace icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "uc.custom-sizes-enabled",
+                "value": false
+            }
+        ],
+        "defaultValue": "14"
+    },
+    {
+        "property": "mod.sizes.workspace-current-icon-size",
+        "label": "📍 Custom size for current workspace indicator icon (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "uc.custom-sizes-enabled",
+                "value": false
+            }
+        ],
+        "defaultValue": "14.5"
+    },
+    {
+        "property": "mod.sizes.pinned-height",
+        "label": "📌 Custom height for Pinned tabs (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "uc.custom-sizes-enabled",
+                "value": false
             }
         ],
         "defaultValue": "50"
