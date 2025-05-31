@@ -1,5 +1,5 @@
 @media (-moz-bool-pref: "zen.tabs.vertical") {
-    /* Essentials icon size */
+    /* Essentials favicon size */
     :root:has(#theme-IcoTweak[uc-essentials-favicon-size="small"]) {
         .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
         .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
@@ -75,7 +75,7 @@
         }
     }
 
-    /* Pinned tabs icon size */
+    /* Pinned tabs favicon size */
     :root:has(#theme-IcoTweak[uc-pinned-favicon-size="small"]) {
         .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
         .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
@@ -151,7 +151,7 @@
         }
     }
 
-    /* Normal tabs icon size */
+    /* Normal tabs favicon size */
     :root:has(#theme-IcoTweak[uc-normal-favicon-size="x-small"]) {
         .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
         .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
