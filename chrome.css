@@ -1,0 +1,306 @@
+@media (-moz-bool-pref: "zen.tabs.vertical") {
+    /* Essentials tabs icon size */
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="small"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: 16px !important;
+            width: 16px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="normal"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: 18px !important;
+            width: 18px !important;
+        }
+        .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+            transform: scale(1.125) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="large"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: 20px !important;
+            width: 20px !important;
+        }
+        .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+            transform: scale(1.25) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="x-large"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: 26px !important;
+            width: 26px !important;
+        }
+        .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+            transform: scale(1.5) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="xx-large"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: 34px !important;
+            width: 34px !important;
+        }
+        .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+            transform: scale(1.75) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-essentials-favicon-size="custom"]) {
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+        .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+        .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+            height: var(--mod-sizes-essentials-favicon-size) !important;
+            width: var(--mod-sizes-essentials-favicon-size) !important;
+        }
+        .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+            transform: scale(calc(var(--mod-sizes-essentials-favicon-size) / 16)) !important;
+        }
+    }
+
+    /* Pinned tabs icon size */
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="small"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: 16px !important;
+            width: 16px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="normal"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: 18px !important;
+            width: 18px !important;
+        }
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.125) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="large"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: 20px !important;
+            width: 20px !important;
+        }
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.25) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="x-large"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: 26px !important;
+            width: 26px !important;
+        }
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.5) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="xx-large"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: 34px !important;
+            width: 34px !important;
+        }
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.75) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-favicon-size="custom"]) {
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+            height: var(--mod-sizes-pinned-favicon-size) !important;
+            width: var(--mod-sizes-pinned-favicon-size) !important;
+        }
+        .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+            transform: scale(calc(var(--mod-sizes-pinned-favicon-size) / 16)) !important;
+        }
+    }
+
+    /* Normal tabs icon size */
+    :root:has(#theme-SizesMod[uc-normal-favicon-size="x-small"]) {
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+            height: 12px !important;
+            width: 12px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-normal-favicon-size="small"]) {
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+            height: 16px !important;
+            width: 16px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-normal-favicon-size="normal"]) {
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+            height: 18px !important;
+            width: 18px !important;
+        }
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.125) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-normal-favicon-size="large"]) {
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+            height: 20px !important;
+            width: 20px !important;
+        }
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+            transform: scale(1.25) !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-normal-favicon-size="custom"]) {
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+            height: var(--mod-sizes-normal-favicon-size) !important;
+            width: var(--mod-sizes-normal-favicon-size) !important;
+        }
+        .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+            transform: scale(calc(var(--mod-sizes-normal-favicon-size) / 16)) !important;
+        }
+    }
+
+    /* Workspace icons size */
+    :root:has(#theme-SizesMod[uc-workspace-icon-size="x-small"]) {
+        #zen-workspaces-button {
+            font-size: x-small !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-icon-size="small"]) {
+        #zen-workspaces-button {
+            font-size: small !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-icon-size="medium"]) {
+        #zen-workspaces-button {
+            font-size: medium !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-icon-size="large"]) {
+        #zen-workspaces-button {
+            font-size: large !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-icon-size="custom"]) {
+        #zen-workspaces-button {
+            font-size: var(--mod-sizes-workspace-icon-size) !important;
+        }
+    }
+
+    /* Current workspace indicator icon size */
+    :root:has(#theme-SizesMod[uc-workspace-current-icon-size="small"]) {
+        .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
+            font-size: 12px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-current-icon-size="normal"]) {
+        .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
+            font-size: 14.5px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-current-icon-size="large"]) {
+        .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
+            font-size: 16px !important;
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-workspace-current-icon-size="custom"]) {
+        .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
+            font-size: var(--mod-sizes-workspace-current-icon-size) !important;
+        }
+    }
+
+    /* Pinned tabs height */
+    :root:has(#theme-SizesMod[uc-pinned-height="small"]) {
+        --pinned-tab-height: 40px;
+        #navigator-toolbox[zen-sidebar-expanded="true"] #vertical-pinned-tabs-container:has(> :nth-child(2)) .zen-workspace-tabs-section {
+            &>.tabbrowser-tab, &>tab-group {
+                height: 40px !important;
+            }
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-height="normal"]) {
+        --pinned-tab-height: 50px;
+        #navigator-toolbox[zen-sidebar-expanded="true"] #vertical-pinned-tabs-container:has(> :nth-child(2)) .zen-workspace-tabs-section {
+            &>.tabbrowser-tab, &>tab-group {
+                height: 50px !important;
+            }
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-height="large"]) {
+        --pinned-tab-height: 60px;
+        #navigator-toolbox[zen-sidebar-expanded="true"] #vertical-pinned-tabs-container:has(> :nth-child(2)) .zen-workspace-tabs-section {
+            &>.tabbrowser-tab, &>tab-group {
+                height: 60px !important;
+            }
+        }
+    }
+
+    :root:has(#theme-SizesMod[uc-pinned-height="custom"]) {
+        --pinned-tab-height: var(--mod-sizes-pinned-height);
+        #navigator-toolbox[zen-sidebar-expanded="true"] #vertical-pinned-tabs-container:has(> :nth-child(2)) .zen-workspace-tabs-section {
+            &>.tabbrowser-tab, &>tab-group {
+                height: var(--mod-sizes-pinned-height) !important;
+            }
+        }
+    }
+}
