@@ -1,6 +1,6 @@
 [
     {
-        "property": "uc.essentials.favicon-size",
+        "property": "icon-tweaker-essentials-icon-size",
         "label": "🔝 Size of Essentials tabs icons",
         "type": "dropdown",
         "placeholder": "Default",
@@ -9,11 +9,24 @@
             { "label": "Normal", "value": "normal" },
             { "label": "Large", "value": "large" },
             { "label": "Extra Large", "value": "x-large" },
-            { "label": "Ultra Large", "value": "xx-large" }
+            { "label": "Ultra Large", "value": "xx-large" },
+            { "label": "Custom", "value": "custom" }
         ]
     },
     {
-        "property": "uc.pinned.favicon-size",
+        "property": "icon-tweaker-essentials-custom-size",
+        "label": "🔝 Custom size for Essentials tabs icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "icon-tweaker-essentials-icon-size",
+                "value": ["small", "normal", "large", "x-large", "xx-large"]
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "icon-tweaker-pinned-icon-size",
         "label": "📌 Size of Pinned tabs icons",
         "type": "dropdown",
         "placeholder": "Default",
@@ -22,11 +35,24 @@
             { "label": "Normal", "value": "normal" },
             { "label": "Large", "value": "large" },
             { "label": "Extra Large", "value": "x-large" },
-            { "label": "Ultra Large", "value": "xx-large" }
+            { "label": "Ultra Large", "value": "xx-large" },
+            { "label": "Custom", "value": "custom" }
         ]
     },
     {
-        "property": "uc.normal.favicon-size",
+        "property": "icon-tweaker-pinned-custom-size",
+        "label": "📌 Custom size for Pinned tabs icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "icon-tweaker-pinned-icon-size",
+                "value": ["small", "normal", "large", "x-large", "xx-large"]
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "icon-tweaker-normal-icon-size",
         "label": "🖼️ Size of Normal tabs icons",
         "type": "dropdown",
         "placeholder": "Default",
@@ -34,11 +60,24 @@
             { "label": "Extra Small", "value": "x-small" },
             { "label": "Small", "value": "small" },
             { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" }
+            { "label": "Large", "value": "large" },
+            { "label": "Custom", "value": "custom" }
         ]
     },
     {
-        "property": "uc.workspace.icon.size",
+        "property": "icon-tweaker-normal-custom-size",
+        "label": "🖼️ Custom size for Normal tabs icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "icon-tweaker-normal-icon-size",
+                "value": ["x-small", "small", "normal", "large"]
+            }
+        ],
+        "defaultValue": "18"
+    },
+    {
+        "property": "icon-tweaker-workspace-icon-size",
         "label": "🌐 Size of workspace icons",
         "type": "dropdown",
         "placeholder": "Default",
@@ -46,29 +85,44 @@
             { "label": "Extra Small", "value": "x-small" },
             { "label": "Small", "value": "small" },
             { "label": "Medium", "value": "medium" },
-            { "label": "Large", "value": "large" }
+            { "label": "Large", "value": "large" },
+            { "label": "Custom", "value": "custom" }
         ]
     },
     {
-        "property": "uc.workspace.current.icon.size",
+        "property": "icon-tweaker-workspace-custom-size",
+        "label": "🌐 Custom size for workspace icons (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "icon-tweaker-workspace-icon-size",
+                "value": ["x-small", "small", "medium", "large"]
+            }
+        ],
+        "defaultValue": "14"
+    },
+    {
+        "property": "icon-tweaker-workspace-current-icon-size",
         "label": "📍 Size of current workspace indicator icon",
         "type": "dropdown",
         "placeholder": "Default",
         "options": [
             { "label": "Small", "value": "small" },
             { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" }
+            { "label": "Large", "value": "large" },
+            { "label": "Custom", "value": "custom" }
         ]
     },
     {
-        "property": "uc.pinned.height",
-        "label": "📌 Height of Pinned tabs",
-        "type": "dropdown",
-        "placeholder": "Select height",
-        "options": [
-            { "label": "Small", "value": "small" },
-            { "label": "Normal", "value": "normal" },
-            { "label": "Large", "value": "large" }
-        ]
+        "property": "icon-tweaker-workspace-current-custom-size",
+        "label": "📍 Custom size for current workspace indicator icon (in pixels)",
+        "type": "string",
+        "disabledOn": [
+            {
+                "property": "icon-tweaker-workspace-current-icon-size",
+                "value": ["small", "normal", "large"]
+            }
+        ],
+        "defaultValue": "14.5"
     }
 ]
