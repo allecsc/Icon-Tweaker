@@ -232,25 +232,25 @@
 /* Workspace icons size */
 :root:has(#theme-IconTweaker[icon-tweaker-workspace-icon-size="x-small"]) {
     #zen-workspaces-button {
-        font-size: x-small !important;
+        font-size: 12px !important;
     }
 }
 
 :root:has(#theme-IconTweaker[icon-tweaker-workspace-icon-size="small"]) {
     #zen-workspaces-button {
-        font-size: small !important;
+        font-size: 14px !important;
     }
 }
 
 :root:has(#theme-IconTweaker[icon-tweaker-workspace-icon-size="medium"]) {
     #zen-workspaces-button {
-        font-size: medium !important;
+        font-size: 16px !important;
     }
 }
 
 :root:has(#theme-IconTweaker[icon-tweaker-workspace-icon-size="large"]) {
     #zen-workspaces-button {
-        font-size: large !important;
+        font-size: 18px !important;
     }
 }
 
@@ -270,7 +270,7 @@
 
 :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-icon-size="normal"]) {
     .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
-        font-size: 14.5px !important;
+        font-size: 14px !important;
     }
 }
 
