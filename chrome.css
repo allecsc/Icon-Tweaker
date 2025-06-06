@@ -80,7 +80,7 @@
         }
 
         /* Custom Essentials icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-essentials-icon-size="custom"]) {
+        :root:has(#theme-IconTweaker[icon-tweaker-essentials-custom-enabled="true"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -157,7 +157,7 @@
         }
 
         /* Custom Pinned icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-pinned-icon-size="custom"]) {
+        :root:has(#theme-IconTweaker[icon-tweaker-pinned-custom-enabled="true"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -218,7 +218,7 @@
         }
 
         /* Custom Normal icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-normal-icon-size="custom"]) {
+        :root:has(#theme-IconTweaker[icon-tweaker-normal-custom-enabled="true"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -257,7 +257,7 @@
         }
 
         /* Custom Workspace icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-icon-size="custom"]) {
+        :root:has(#theme-IconTweaker[icon-tweaker-workspace-custom-enabled="true"]) {
             #zen-workspaces-button {
                 font-size: var(--icon-tweaker-workspace-custom-size) !important;
             }
@@ -283,7 +283,7 @@
         }
 
         /* Custom Current Workspace icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-icon-size="custom"]) {
+        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-custom-enabled="true"]) {
             .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
                 font-size: var(--icon-tweaker-workspace-current-custom-size) !important;
             }
