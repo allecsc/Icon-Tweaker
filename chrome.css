@@ -1,20 +1,5 @@
 @-moz-document url-prefix("chrome:") {
     @media (-moz-bool-pref: "zen.tabs.vertical") {
-        /* IconTweaker Theme */
-        :root {
-            /* Define default CSS variables */
-            --icon-tweaker-toolbox-padding: 8px;
-            --icon-tweaker-colors-secondary: #666666;
-            --icon-tweaker-pins-sticky-bg: rgba(0, 0, 0, 0.1);
-            --icon-tweaker-pins-active-bg: rgba(0, 0, 0, 0.2);
-            --icon-tweaker-pinned-tab-height: 50px;
-            --icon-tweaker-essentials-tab-height: 55px;
-        }
-
-        /* Theme element for settings */
-        #theme-IconTweaker {
-            display: none;
-        }
 
         /* Essentials icon size */
         :root:has(#theme-IconTweaker[icon-tweaker-essentials-icon-size="small"]) {
@@ -260,32 +245,6 @@
         :root:has(#theme-IconTweaker[icon-tweaker-workspace-custom-enabled="true"]) {
             #zen-workspaces-button {
                 font-size: var(--icon-tweaker-workspace-custom-size) !important;
-            }
-        }
-
-        /* Current workspace icons size */
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-icon-size="small"]) {
-            .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
-                font-size: 12px !important;
-            }
-        }
-
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-icon-size="normal"]) {
-            .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
-                font-size: 14px !important;
-            }
-        }
-
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-icon-size="large"]) {
-            .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
-                font-size: 16px !important;
-            }
-        }
-
-        /* Custom Current Workspace icon size */
-        :root:has(#theme-IconTweaker[icon-tweaker-workspace-current-custom-enabled="true"]) {
-            .zen-current-workspace-indicator .zen-current-workspace-indicator-icon {
-                font-size: var(--icon-tweaker-workspace-current-custom-size) !important;
             }
         }
     }
