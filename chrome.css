@@ -2,7 +2,7 @@
     @media (-moz-bool-pref: "zen.tabs.vertical") {
 
         /* Essentials icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="small"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="16px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -12,7 +12,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="normal"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="18px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -25,7 +25,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="20px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -38,7 +38,33 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="x-large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="22px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 22px !important;
+                width: 22px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(1.375) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="24px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 24px !important;
+                width: 24px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(1.5) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="26px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -47,11 +73,50 @@
                 width: 26px !important;
             }
             .tabbrowser-tab[zen-essential="true"] .tab-throbber {
-                transform: scale(1.5) !important;
+                transform: scale(1.625) !important;
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="xx-large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="28px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 28px !important;
+                width: 28px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(1.75) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="30px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 30px !important;
+                width: 30px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(1.875) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="32px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 32px !important;
+                width: 32px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(2) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="34px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
@@ -60,26 +125,72 @@
                 width: 34px !important;
             }
             .tabbrowser-tab[zen-essential="true"] .tab-throbber {
-                transform: scale(1.75) !important;
+                transform: scale(2.125) !important;
             }
         }
 
-        /* Custom Essentials icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-custom-enabled="true"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="36px"]) {
             .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
             .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
             .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
-                height: var(--icon-tweaker-essentials-custom-size) !important;
-                width: var(--icon-tweaker-essentials-custom-size) !important;
+                height: 36px !important;
+                width: 36px !important;
             }
             .tabbrowser-tab[zen-essential="true"] .tab-throbber {
-                transform: scale(calc(var(--icon-tweaker-essentials-custom-size) / 16)) !important;
+                transform: scale(2.15) !important;
             }
         }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="38px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 38px !important;
+                width: 38px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(2.175) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-essentials-icon-size="40px"]) {
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-pending,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-image,
+            .tabbrowser-tab[zen-essential="true"] .tab-sharing-icon-overlay,
+            .tabbrowser-tab[zen-essential="true"] .tab-icon-overlay {
+                height: 40px !important;
+                width: 40px !important;
+            }
+            .tabbrowser-tab[zen-essential="true"] .tab-throbber {
+                transform: scale(2.2) !important;
+            }
+        }
+
 
         /* Pinned tabs icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="small"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="12px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 12px !important;
+                width: 12px !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="14px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 14px !important;
+                width: 14px !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="16px"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -89,7 +200,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="normal"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="18px"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -102,7 +213,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="20px"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -115,7 +226,33 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="x-large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="22px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 22px !important;
+                width: 22px !important;
+            }
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.375) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="24px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 24px !important;
+                width: 24px !important;
+            }
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.5) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="26px"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -124,11 +261,50 @@
                 width: 26px !important;
             }
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
-                transform: scale(1.5) !important;
+                transform: scale(1.625) !important;
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="xx-large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="28px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 28px !important;
+                width: 28px !important;
+            }
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.75) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="30px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 30px !important;
+                width: 30px !important;
+            }
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.875) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="32px"]) {
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
+                height: 32px !important;
+                width: 32px !important;
+            }
+            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
+                transform: scale(2) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-icon-size="34px"]) {
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -137,26 +313,12 @@
                 width: 34px !important;
             }
             .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
-                transform: scale(1.75) !important;
-            }
-        }
-
-        /* Custom Pinned icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-pinned-custom-enabled="true"]) {
-            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-pending,
-            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-image,
-            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-sharing-icon-overlay,
-            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-icon-overlay {
-                height: var(--icon-tweaker-pinned-custom-size) !important;
-                width: var(--icon-tweaker-pinned-custom-size) !important;
-            }
-            .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-throbber {
-                transform: scale(calc(var(--icon-tweaker-pinned-custom-size) / 16)) !important;
+                transform: scale(2.125) !important;
             }
         }
 
         /* Normal tabs icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="x-small"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="12px"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -166,7 +328,17 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="small"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="14px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 14px !important;
+                width: 14px !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="16px"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -176,7 +348,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="normal"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="18px"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -189,7 +361,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="20px"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
@@ -202,50 +374,133 @@
             }
         }
 
-        /* Custom Normal icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-custom-enabled="true"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="22px"]) {
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
-                height: var(--icon-tweaker-normal-custom-size) !important;
-                width: var(--icon-tweaker-normal-custom-size) !important;
+                height: 22px !important;
+                width: 22px !important;
             }
             .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
-                transform: scale(calc(var(--icon-tweaker-normal-custom-size) / 16)) !important;
+                transform: scale(1.375) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="24px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 24px !important;
+                width: 24px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.5) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="26px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 26px !important;
+                width: 26px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.625) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="28px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 28px !important;
+                width: 28px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.75) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="30px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 30px !important;
+                width: 30px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(1.875) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="32px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 32px !important;
+                width: 32px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(2) !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-normal-icon-size="34px"]) {
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-pending,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-image,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-sharing-icon-overlay,
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-icon-overlay {
+                height: 34px !important;
+                width: 34px !important;
+            }
+            .tabbrowser-tab:not([pinned]):not([zen-essential="true"]) .tab-throbber {
+                transform: scale(2.125) !important;
             }
         }
 
         /* Workspace icons size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="x-small"]) {
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="10px"]) {
+            #zen-workspaces-button {
+                font-size: 10px !important;
+            }
+        }
+
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="12px"]) {
             #zen-workspaces-button {
                 font-size: 12px !important;
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="small"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="14px"]) {
             #zen-workspaces-button {
                 font-size: 14px !important;
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="normal"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="16px"]) {
             #zen-workspaces-button {
                 font-size: 16px !important;
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="large"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="18px"]) {
             #zen-workspaces-button {
                 font-size: 18px !important;
             }
         }
 
-        /* Custom Workspace icon size */
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-custom-enabled="true"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="20px"]) {
             #zen-workspaces-button {
-                font-size: var(--icon-tweaker-workspace-custom-size) !important;
+                font-size: 20px !important;
             }
         }
     }
-} 
+}
