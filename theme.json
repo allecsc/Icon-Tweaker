@@ -8,13 +8,14 @@
     "readme": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/README.md",
     "image": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/image.jpg",
     "author": "celalalt",
-    "version": "1.0.0",
+    "version": "1.1.0",
   "tags": [
         "sine",
         "tabs",
         "icons",
-        "customization"
+        "customization",
+        "resize"
     ],
     "createdAt": "2025-05-31",
-    "updatedAt": "2025-05-31"
+    "updatedAt": "2025-06-10"
 }
