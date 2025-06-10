@@ -48,39 +48,5 @@
             { "label": "Medium (16px)", "value": "medium" },
             { "label": "Large (18px)", "value": "large" }
         ]
-    },
-    {
-        "property": "icon-tweaker-custom-sizes-enabled",
-        "label": "Enable Custom Icon Sizes",
-        "type": "checkbox",
-        "defaultValue": false
-    },
-    {
-        "property": "icon-tweaker-essentials-custom-size",
-        "label": "🔝 Custom Essentials Icon Size (px)",
-        "type": "string",
-        "placeholder": "Enter size in pixels (e.g., 22)",
-        "defaultValue": "16"
-    },
-    {
-        "property": "icon-tweaker-pinned-custom-size",
-        "label": "📌 Custom Pinned Icon Size (px)",
-        "type": "string",
-        "placeholder": "Enter size in pixels (e.g., 22)",
-        "defaultValue": "16"
-    },
-    {
-        "property": "icon-tweaker-normal-custom-size",
-        "label": "🖼️ Custom Normal Icon Size (px)",
-        "type": "string",
-        "placeholder": "Enter size in pixels (e.g., 22)",
-        "defaultValue": "16"
-    },
-    {
-        "property": "icon-tweaker-workspace-custom-size",
-        "label": "🌐 Custom Workspace Icon Size (px)",
-        "type": "string",
-        "placeholder": "Enter size in pixels (e.g., 22)",
-        "defaultValue": "16"
     }
 ]
