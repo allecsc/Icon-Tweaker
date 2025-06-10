@@ -229,7 +229,7 @@
             }
         }
 
-        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="medium"]) {
+        :root:has(#theme-Icon-Tweaker[icon-tweaker-workspace-icon-size="normal"]) {
             #zen-workspaces-button {
                 font-size: 16px !important;
             }
