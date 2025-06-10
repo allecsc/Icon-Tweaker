@@ -1,4 +1,4 @@
-# IconTweaker
+# Icon Tweaker
 
 A Zen mod to customize icon sizes for tabs and workspace buttons.
 
