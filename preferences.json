@@ -45,7 +45,7 @@
         "options": [
             { "label": "Extra Small (12px)", "value": "x-small" },
             { "label": "Small (14px)", "value": "small" },
-            { "label": "Medium (16px)", "value": "medium" },
+            { "label": "Medium (16px)", "value": "normal" },
             { "label": "Large (18px)", "value": "large" }
         ]
     }
