@@ -9,7 +9,7 @@
     "image": "https://raw.githubusercontent.com/allecsc/Icon-Tweaker/refs/heads/main/image.png",
     "author": "celalalt",
     "version": "1.1",
-  "tags": [
+    "tags": [
         "sine",
         "tabs",
         "icons",
@@ -17,5 +17,6 @@
         "resize"
     ],
     "createdAt": "2025-05-31",
-    "updatedAt": "2025-06-10"
+    "updatedAt": "2025-06-10",
+    "fork": ["zen"]
 }
