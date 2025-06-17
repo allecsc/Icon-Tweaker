@@ -18,5 +18,5 @@
     ],
     "createdAt": "2025-05-31",
     "updatedAt": "2025-06-16",
-    "fork": ["zen"]
+    "fork": ["zen", "firefox"]
 }
